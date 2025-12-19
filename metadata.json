@@ -1,0 +1,8 @@
+{
+  "name": "Titiconst - Construcții Bacău",
+  "description": "Site de prezentare profesional pentru Titiconst, firmă de construcții cu peste 25 de ani de experiență în Bacău.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
