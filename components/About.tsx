@@ -8,19 +8,19 @@ const About: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row items-center gap-16">
           <div className="lg:w-1/2 relative">
-            <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl">
+            <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl bg-slate-200">
               <img
-                src="https://picsum.photos/seed/building/800/600"
-                alt="Echipa la lucru"
-                className="w-full h-auto grayscale-[0.2] hover:grayscale-0 transition-all duration-500"
+                src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1931&auto=format&fit=crop"
+                alt="Expertiză Titiconst"
+                className="w-full h-auto grayscale-[0.1] hover:grayscale-0 transition-all duration-500 block"
               />
             </div>
             <div className="absolute -bottom-6 -right-6 w-64 h-64 bg-slate-900 rounded-2xl -z-0 hidden md:block"></div>
             <div className="absolute -top-6 -left-6 w-32 h-32 border-8 border-orange-500/20 rounded-full -z-0"></div>
             
-            <div className="absolute bottom-10 left-10 bg-white/90 backdrop-blur-sm p-4 rounded-lg shadow-lg flex items-center gap-3">
+            <div className="absolute bottom-10 left-10 bg-white/95 backdrop-blur-sm p-4 rounded-lg shadow-lg flex items-center gap-3">
                <div className="bg-orange-500 p-2 rounded-full">
-                 <Award className="text-white" />
+                 <Award className="text-white" size={20} />
                </div>
                <span className="font-bold text-slate-800">Specialiști Certificați</span>
             </div>
