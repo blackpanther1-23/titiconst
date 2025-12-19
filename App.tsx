@@ -1,14 +1,14 @@
 
 import React, { useState, useEffect } from 'react';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import About from './components/About';
-import Services from './components/Services';
-import Collaborators from './components/Collaborators';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
-import AIConsultant from './components/AIConsultant';
+import { HashRouter as Router } from 'react-router-dom';
+import Header from './components/Header.tsx';
+import Hero from './components/Hero.tsx';
+import About from './components/About.tsx';
+import Services from './components/Services.tsx';
+import Collaborators from './components/Collaborators.tsx';
+import Contact from './components/Contact.tsx';
+import Footer from './components/Footer.tsx';
+import AIConsultant from './components/AIConsultant.tsx';
 
 const App: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
